@@ -1,0 +1,133 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background-color: #FFD700;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.sobre {
+    text-align: left;
+    display: flex;
+    font-size: 25px;
+    cursor: pointer;
+
+}
+
+
+#paragraph {
+    font-size: 40px;
+}
+
+.phase {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #fefeff;
+    border-bottom: 1px solid silver;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.button-phase {
+    color: #FFD700;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.button-phase:active {
+    opacity: 0.7;
+}
+
+.button-phase:hover {
+    opacity: 0.5;
+}
+
+.table-paragraph {
+    margin: 30px 150px 30px;
+}
+
+.confrontation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 150px;
+    border: 1px solid;
+    border-color: gray;
+    margin-bottom: 20px;
+}
+
+.time-pote-1 {
+    display: flex;
+    margin-right: 27px;
+
+}
+
+.placar {
+    display: flex;
+    letter-spacing: 20px;
+}
+
+.time-pote-2 {
+    display: flex;
+    margin-left: 10px;
+}
+
+.imagem-time-1 {
+    position: relative;
+    left: 4px;
+    bottom: 3px;
+}
+
+.imagem-time-2 {
+    position: relative;
+    left: -3px;
+    bottom: 3px;
+}
+
+.final{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-simular{
+    background-color: #FFD700;
+    color:#ffffff;
+    width: 250px;
+    height: 100px;
+    border-radius: 30px;
+    border: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.button-simular:hover{
+    opacity: 0.9;
+}
+
+
+.button-simular:active{
+    opacity: 0.7;
+}
+
